@@ -1,0 +1,32 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=2 NCHAR=132;
+ FORMAT DATATYPE=DNA INTERLEAVE MISSING=-;
+[Name: seq1             Len:    3  Check:    0]
+[Name: seq2             Len:    3  Check:    0]
+
+MATRIX
+seq1                 aaatttcccgggaaatttcccgggaaatttcccgggaaatttcccgggaaatttcccgggaaatttcccgggaaatttcccgggaaatttcccgggaaatttcccgggaaatttcccgggaaatttcccggg
+seq2                 aaatttcccccctttaaaggggggaaatttcccgggaaaccctttaaagggtttcccgggaaatttcccaggaaaccctttaaagggtttccagggaaatttcccgggaaaccctttaaagggattcccggg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+END;
